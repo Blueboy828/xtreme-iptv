@@ -32,7 +32,7 @@ android {
 
     defaultConfig {
         applicationId = "com.xtreme.iptv"
-        minSdk = 21          // media_kit requires minSdk 21
+        minSdk = flutter.minSdkVersion          // media_kit requires minSdk 21
         targetSdk = 34
         versionCode = flutterVersionCode.toInteger()
         versionName = flutterVersionName
