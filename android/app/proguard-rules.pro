@@ -9,3 +9,4 @@
 
 # Hive
 -keep class com.google.gson.** { *; }
+-dontwarn com.google.android.play.core.**
