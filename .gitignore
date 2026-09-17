@@ -1,0 +1,45 @@
+# Flutter / Dart
+.dart_tool/
+.packages
+.flutter-plugins
+.pub-cache/
+.pub/
+build/
+flutter_*.png
+
+# IntelliJ / Android Studio
+*.iml
+.idea/
+*.ipr
+*.iws
+
+# VS Code
+.vscode/
+
+# Flutter
+flutter_export_environment.sh
+
+# Android
+android/.gradle/
+android/local.properties
+android/captures/
+android/key.properties
+*.keystore
+*.jks
+
+# iOS
+ios/Pods/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/Generated.xcconfig
+ios/Runner/GeneratedPluginRegistrant.*
+
+# Coverage
+coverage/
+
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
